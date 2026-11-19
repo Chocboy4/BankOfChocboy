@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using BankOfChocboy.DTOs;
+using BankOfChocboy.Application.DTOs;
 using BankOfChocboy.Services;
 
 namespace  BankOfChocboy.Controllers

@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MySqlConnector;
-using BankOfChocboy.DTOs;
+using BankOfChocboy.Application.DTOs;
 using BankOfChocboy.Infrastructure.Repositories;
 using BankOfChocboy.Domain.Models;
 using BankOfChocboy.Services;

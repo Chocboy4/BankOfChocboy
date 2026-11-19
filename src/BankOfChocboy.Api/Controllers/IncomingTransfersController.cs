@@ -1,7 +1,7 @@
-﻿using BankOfChocboy.Infrastructure.Repositories;
+using BankOfChocboy.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using BankOfChocboy.DTOs;
+using BankOfChocboy.Application.DTOs;
 
 namespace BankOfChocboy.Controllers
 {

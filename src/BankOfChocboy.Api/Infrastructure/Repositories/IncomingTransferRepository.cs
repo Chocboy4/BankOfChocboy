@@ -1,8 +1,8 @@
-﻿using BankOfChocboy.Infrastructure.Repositories;
+using BankOfChocboy.Infrastructure.Repositories;
 using Dapper;
 using MySqlConnector;
 using System.Data;
-using BankOfChocboy.DTOs;
+using BankOfChocboy.Application.DTOs;
 using static BankOfChocboy.Infrastructure.Repositories.IIncomingTransferRepository;
 
 namespace  BankOfChocboy.Infrastructure.Repositories

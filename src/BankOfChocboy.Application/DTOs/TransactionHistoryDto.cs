@@ -1,5 +1,5 @@
-﻿
-namespace BankOfChocboy.DTOs
+
+namespace BankOfChocboy.Application.DTOs
 {
     public class TransactionHistoryDto
     {

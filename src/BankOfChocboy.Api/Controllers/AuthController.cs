@@ -3,7 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using BankOfChocboy.DTOs;
+using BankOfChocboy.Application.DTOs;
 using BankOfChocboy.Infrastructure.Repositories;
 using BankOfChocboy.Domain.Models;
 using BankOfChocboy.Services;

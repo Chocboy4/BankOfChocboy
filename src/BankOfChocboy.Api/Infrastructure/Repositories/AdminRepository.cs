@@ -1,5 +1,5 @@
-﻿using Dapper;
-using BankOfChocboy.DTOs;
+using Dapper;
+using BankOfChocboy.Application.DTOs;
 
 namespace  BankOfChocboy.Infrastructure.Repositories
 {

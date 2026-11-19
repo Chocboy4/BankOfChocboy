@@ -1,6 +1,6 @@
 
 using Dapper;
-using BankOfChocboy.DTOs;
+using BankOfChocboy.Application.DTOs;
 using BankOfChocboy.Domain.Models;
 
 namespace  BankOfChocboy.Infrastructure.Repositories

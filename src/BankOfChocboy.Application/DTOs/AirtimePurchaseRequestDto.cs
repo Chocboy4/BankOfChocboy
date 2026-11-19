@@ -1,7 +1,7 @@
-﻿
+
 using System.ComponentModel.DataAnnotations;
 
-namespace BankOfChocboy.DTOs
+namespace BankOfChocboy.Application.DTOs
 {
     public class AirtimePurchaseRequestDto
     {

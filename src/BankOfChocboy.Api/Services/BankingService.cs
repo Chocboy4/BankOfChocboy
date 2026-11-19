@@ -1,4 +1,4 @@
-using BankOfChocboy.DTOs;
+using BankOfChocboy.Application.DTOs;
 using BankOfChocboy.HttpClients;
 using BankOfChocboy.Infrastructure.Repositories;
 using BankOfChocboy.Domain.Models;
