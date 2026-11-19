@@ -1,5 +1,5 @@
 using BankOfChocboy.Application.DTOs;
-using BankOfChocboy.Helpers;
+using BankOfChocboy.Application.Helpers;
 using BankOfChocboy.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

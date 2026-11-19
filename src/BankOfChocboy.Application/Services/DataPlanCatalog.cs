@@ -1,4 +1,4 @@
-﻿namespace  BankOfChocboy.Services
+namespace BankOfChocboy.Application.Services
 {
 
     public record DataPlan(string Code, string Network, string Name, decimal Price);

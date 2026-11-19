@@ -1,6 +1,6 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
-namespace  BankOfChocboy.Helpers
+namespace BankOfChocboy.Application.Helpers
 {
     public static class PhoneNumberHelper
     {

@@ -1,6 +1,6 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 
-namespace  BankOfChocboy.Services;
+namespace BankOfChocboy.Application.Services;
 
 public class AccountNumberGenerator
 {

@@ -1,9 +1,7 @@
 using BankOfChocboy.Application.DTOs;
-using BankOfChocboy.HttpClients;
-using BankOfChocboy.Infrastructure.Repositories;
 using BankOfChocboy.Domain.Models;
 
-namespace BankOfChocboy.Services
+namespace BankOfChocboy.Application.Services
 {
     public class BankingService : IBankingService
     {

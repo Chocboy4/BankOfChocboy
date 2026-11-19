@@ -1,7 +1,6 @@
 using BankOfChocboy.Application.DTOs;
-using BankOfChocboy.Infrastructure.Repositories;
 
-namespace  BankOfChocboy.Services
+namespace BankOfChocboy.Application.Services
 {
     public class AdminService : IAdminService
     {

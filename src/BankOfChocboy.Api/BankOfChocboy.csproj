@@ -32,7 +32,15 @@
   <ItemGroup>
     <Using Include="BankOfChocboy.Application.Interfaces" />
   </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Application.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Application.Helpers" />
+  </ItemGroup>
 </Project>
+
+
 
 
 

@@ -1,4 +1,4 @@
-﻿namespace BankOfChocboy.Helpers
+namespace BankOfChocboy.Application.Helpers
 {
     public static class NetworkCatalog
     {

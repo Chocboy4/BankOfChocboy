@@ -1,8 +1,6 @@
 using BankOfChocboy.Application.DTOs;
-using BankOfChocboy.Helpers;
-using BankOfChocboy.Infrastructure.Repositories;
 
-namespace  BankOfChocboy.Services
+namespace BankOfChocboy.Application.Services
 {
     public class DataPurchaseService : IDataPurchaseService
     {
