@@ -1,4 +1,3 @@
-﻿using Microsoft.Data.SqlClient;
 using MySqlConnector;
 
 namespace  BankOfChocboy.Infrastructure

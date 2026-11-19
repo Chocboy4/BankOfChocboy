@@ -2,7 +2,7 @@ using System.Net;
 using System.Net.Http.Json;
 using BankOfChocboy.Application.DTOs;
 
-namespace BankOfChocboy.HttpClients
+namespace BankOfChocboy.Infrastructure.HttpClients
 {
     public class TatumBankClient : ITatumBankClient
     {

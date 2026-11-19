@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using BankOfChocboy.Infrastructure.Repositories;
 using BankOfChocboy.Domain.Models;
 
-namespace  BankOfChocboy.Services
+namespace BankOfChocboy.Infrastructure.Seeding
 {
     public class AdminSeeder
     {

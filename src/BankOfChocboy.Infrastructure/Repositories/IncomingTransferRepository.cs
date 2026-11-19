@@ -3,7 +3,7 @@ using Dapper;
 using MySqlConnector;
 using System.Data;
 using BankOfChocboy.Application.DTOs;
-using static BankOfChocboy.Infrastructure.Repositories.IIncomingTransferRepository;
+using static BankOfChocboy.Application.Interfaces.IIncomingTransferRepository;
 
 namespace  BankOfChocboy.Infrastructure.Repositories
 {

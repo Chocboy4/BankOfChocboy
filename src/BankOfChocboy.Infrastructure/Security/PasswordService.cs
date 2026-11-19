@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using BankOfChocboy.Domain.Models;
 
-namespace  BankOfChocboy.Services;
+namespace BankOfChocboy.Infrastructure.Security;
 
-public class PasswordService
+public class PasswordService : IPasswordService
 {
     private readonly PasswordHasher<Account> _passwordHasher;
 

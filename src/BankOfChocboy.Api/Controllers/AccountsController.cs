@@ -5,7 +5,6 @@ using MySqlConnector;
 using BankOfChocboy.Application.DTOs;
 using BankOfChocboy.Infrastructure.Repositories;
 using BankOfChocboy.Domain.Models;
-using BankOfChocboy.Services;
 
 namespace  BankOfChocboy.Controllers
 {
@@ -15,10 +14,10 @@ namespace  BankOfChocboy.Controllers
     {
         private readonly IAccountRepository _accountRepository;
         private readonly AccountNumberGenerator _accountNumberGenerator;
-        private readonly PasswordService _passwordService;
+        private readonly IPasswordService _passwordService;
 
         public AccountsController(IAccountRepository accountRepository, AccountNumberGenerator accountNumberGenerator,
-        PasswordService passwordService)
+        IPasswordService passwordService)
         {
             _accountRepository = accountRepository;
             _accountNumberGenerator = accountNumberGenerator;

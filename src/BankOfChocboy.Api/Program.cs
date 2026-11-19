@@ -1,12 +1,10 @@
 using BankOfChocboy.Filters;
-using BankOfChocboy.HttpClients;
 using BankOfChocboy.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using System.Text;
 using BankOfChocboy.Infrastructure;
-using BankOfChocboy.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -69,7 +67,7 @@ builder.Services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IBankingService, BankingService>();
 builder.Services.AddScoped<AccountNumberGenerator>();
-builder.Services.AddScoped<PasswordService>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<IAirtimeRepository, AirtimeRepository>();

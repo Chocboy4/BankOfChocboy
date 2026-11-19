@@ -28,6 +28,22 @@
   <ItemGroup>
     <Using Include="BankOfChocboy.Application.Interfaces" />
   </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Application.Helpers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.Logging" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+  </ItemGroup>
 </Project>
+
+
+
+
 
 

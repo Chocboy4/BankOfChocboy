@@ -38,7 +38,19 @@
   <ItemGroup>
     <Using Include="BankOfChocboy.Application.Helpers" />
   </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Infrastructure.HttpClients" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Infrastructure.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Infrastructure.Seeding" />
+  </ItemGroup>
 </Project>
+
+
+
 
 
 
