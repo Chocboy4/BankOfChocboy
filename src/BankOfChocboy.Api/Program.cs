@@ -62,41 +62,9 @@ builder.Services
 
 builder.Services.AddAuthorization();
 
-// Application services
-builder.Services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
-builder.Services.AddScoped<IAccountRepository, AccountRepository>();
-builder.Services.AddScoped<IBankingService, BankingService>();
-builder.Services.AddScoped<AccountNumberGenerator>();
-builder.Services.AddScoped<IPasswordService, PasswordService>();
-builder.Services.AddScoped<ITransactionService, TransactionService>();
-builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
-builder.Services.AddScoped<IAirtimeRepository, AirtimeRepository>();
-builder.Services.AddScoped<IAirtimeService, AirtimeService>();
-builder.Services.AddScoped<IDataPurchaseRepository, DataPurchaseRepository>();
-builder.Services.AddScoped<IDataPurchaseService, DataPurchaseService>();
-builder.Services.AddScoped<IAdminUserRepository, AdminUserRepository>();
-builder.Services.AddScoped<AdminSeeder>();
-builder.Services.AddScoped<IAdminRepository, AdminRepository>();
-builder.Services.AddScoped<IAdminService, AdminService>();
-builder.Services.AddScoped<IAuditLogRepository, AuditLogRepository>();
-builder.Services.AddScoped<IAuditService, AuditService>();
-builder.Services.AddScoped<IInterbankTransferRepository, InterbankTransferRepository>();
-builder.Services.AddScoped<IIncomingTransferRepository, IncomingTransferRepository>();
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddScoped<InterbankApiKeyFilter>();
-builder.Services.AddScoped<IAirtimeVendRepository, AirtimeVendRepository>();
-
-builder.Services.AddHttpClient<ITatumBankClient, TatumBankClient>(
-    client =>
-    {
-        client.BaseAddress = new Uri(
-            builder.Configuration["TatumBank:BaseUrl"]
-            ?? throw new InvalidOperationException("TatumBank BaseUrl is not configured."));
-        client.Timeout = TimeSpan.FromSeconds(15);
-
-        var apiKey = builder.Configuration["TatumBank:ApiKey"];
-        if (!string.IsNullOrWhiteSpace(apiKey))
-            client.DefaultRequestHeaders.Add("X-Api-Key", apiKey);
-    });
 
 
 var app = builder.Build();

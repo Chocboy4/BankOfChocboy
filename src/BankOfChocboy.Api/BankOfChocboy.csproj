@@ -8,14 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.89" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="11.0.0" />
-    <PackageReference Include="MySqlConnector" Version="3.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.3.1" />
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="9.0.21" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,7 +42,15 @@
   <ItemGroup>
     <Using Include="BankOfChocboy.Infrastructure.Seeding" />
   </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Application" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Infrastructure" />
+  </ItemGroup>
 </Project>
+
+
 
 
 
