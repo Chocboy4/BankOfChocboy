@@ -5,6 +5,7 @@
 
 # dotenv files
 .env
+.env.*
 
 # User-specific files
 *.rsuser
@@ -312,6 +313,15 @@ node_modules/
 # Visual Studio 6 technical files
 *.ncb
 *.aps
+
+#build output
+bin/
+obj/
+
+.vs/
+
+*.user
+*.suo
 
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
