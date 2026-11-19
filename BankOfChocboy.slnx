@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BankOfChocboy.Application/BankOfChocboy.Application.csproj" />
+    <Project Path="src/BankOfChocboy.Domain/BankOfChocboy.Domain.csproj" />
+    <Project Path="src/BankOfChocboy.Infrastructure/BankOfChocboy.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/BankOfChocboy.Api/">
+    <Project Path="src/BankOfChocboy.Api/BankOfChocboy.csproj" />
+  </Folder>
+</Solution>
