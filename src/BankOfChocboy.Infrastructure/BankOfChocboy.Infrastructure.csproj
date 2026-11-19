@@ -1,8 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\BankOfChocboy.Application\BankOfChocboy.Application.csproj" />
     <ProjectReference Include="..\BankOfChocboy.Domain\BankOfChocboy.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.89" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="11.0.0" />
+    <PackageReference Include="MySqlConnector" Version="3.0.0" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -11,4 +17,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Domain.Models" />
+    <Using Include="BankOfChocboy.Application.DTOs" />
+  </ItemGroup>
 </Project>
+
