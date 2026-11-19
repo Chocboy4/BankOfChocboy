@@ -1,6 +1,6 @@
 using BankOfChocboy.Application.DTOs;
 
-namespace BankOfChocboy.HttpClients
+namespace BankOfChocboy.Application.Interfaces
 {
     public enum InterbankOutcome
     {

@@ -1,6 +1,6 @@
 using BankOfChocboy.Application.DTOs;
 
-namespace  BankOfChocboy.Infrastructure.Repositories
+namespace BankOfChocboy.Application.Interfaces
 {
     public interface IAirtimeRepository
     {

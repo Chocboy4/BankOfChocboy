@@ -1,4 +1,4 @@
-﻿namespace BankOfChocboy.Infrastructure.Repositories
+namespace BankOfChocboy.Application.Interfaces
 {
     public enum AirtimeVendResult
     {

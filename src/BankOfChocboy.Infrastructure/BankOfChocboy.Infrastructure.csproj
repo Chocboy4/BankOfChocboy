@@ -25,5 +25,9 @@
     <Using Include="BankOfChocboy.Domain.Models" />
     <Using Include="BankOfChocboy.Application.DTOs" />
   </ItemGroup>
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Application.Interfaces" />
+  </ItemGroup>
 </Project>
+
 

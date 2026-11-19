@@ -1,6 +1,6 @@
 using BankOfChocboy.Application.DTOs;
 
-namespace  BankOfChocboy.Services
+namespace BankOfChocboy.Application.Interfaces
 {
     public interface ITransactionService
     {
