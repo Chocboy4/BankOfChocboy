@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\BankOfChocboy.Domain\BankOfChocboy.Domain.csproj" />
@@ -10,4 +10,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Using Include="BankOfChocboy.Domain.Models" />
+    <Using Include="BankOfChocboy.Application.DTOs" />
+  </ItemGroup>
 </Project>
+

@@ -1,7 +1,7 @@
 using BankOfChocboy.Application.DTOs;
 using BankOfChocboy.Domain.Models;
 
-namespace  BankOfChocboy.Infrastructure.Repositories
+namespace BankOfChocboy.Application.Interfaces
 {
     public interface ITransactionRepository
     {
