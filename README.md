@@ -30,7 +30,7 @@ Dependency rules:
 - `Application` references `Domain` only
 - `Domain` references nothing
 
-Services are registered with two extension methods, `AddApplication()` and `AddInfrastructure(configuration)`, called from `Program.cs`.
+
 
 ```mermaid
 flowchart LR
@@ -86,7 +86,7 @@ BankOfChocboy/
 ### 1. Clone and build
 
 ```powershell
-git clone <your-repository-url>
+git clone 
 cd BankOfChocboy
 dotnet build
 ```
@@ -142,6 +142,3 @@ Both banks are separate APIs with their own databases. They share no tables and 
 | `Admins` | Admin users |
 | `AdminAuditLogs` | Record of admin actions |
 
-## Author
-
-Francis Egbuleze
